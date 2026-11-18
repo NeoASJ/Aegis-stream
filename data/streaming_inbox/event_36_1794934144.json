@@ -1,0 +1,1 @@
+{"event_id": "CA-FIRE-1794934144-36", "event_timestamp": "2026-11-17T16:49:04.843333+00:00", "latitude": 34.08466, "longitude": -118.64278, "brightness_k": 339.65, "frp_mw": 49.5, "confidence": "nominal", "satellite": "VIIRS_SNPP", "temp_c": 11.1, "wind_speed_kmh": 8.5, "wind_dir_deg": 49}

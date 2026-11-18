@@ -1,0 +1,27 @@
+[project]
+name = "aegis-stream"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ANUSH S JATHAN", email = "anushjathan268@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "apache-sedona==1.6.1",
+    "delta-spark==3.2.0",
+    "fastapi>=0.162.5",
+    "kafka-python-ng==2.2.2",
+    "pandas==2.2.2",
+    "pyspark==3.5.1",
+    "requests==2.32.3",
+    "shapely==2.0.4",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+aegis-stream = "aegis_stream:main"
+
+[build-system]
+requires = ["uv_build>=0.13.3,<0.14.0"]
+build-backend = "uv_build"
